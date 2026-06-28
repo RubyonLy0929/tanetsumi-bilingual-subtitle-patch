@@ -79,7 +79,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3753328194
 
 ```powershell
 $env:GITHUB_TOKEN="ghp_xxx"
-.\tools\update-github-metadata.ps1
+python .\tools\update_github_metadata.py
 ```
 
 这个脚本会更新仓库描述、Homepage、Topics 和最新版 Release 文案。
