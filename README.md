@@ -1,35 +1,50 @@
-# 给日语学习者的播种之谣双语字幕补丁
+<p align="center">
+  <img src="assets/readme-banner.svg" alt="播种之谣 / たねつみの歌 日中双语字幕补丁" width="100%">
+</p>
 
-一个面向日语学习者的《播种之谣 / たねつみの歌》双语字幕补丁。
+# 《播种之谣》日中双语字幕补丁
 
-补丁会在游戏中固定显示：
+[中文](README.md) | [English](README.en.md) | [日本語](README.ja.md)
 
-- 上方：日语官方字幕，保留原本的大字显示效果
-- 下方：简体中文官方字幕，淡黄色、小一号显示
-- UI：仍然跟随游戏设置里的语言选项，不会被锁成中文或日文
+[![Release](https://img.shields.io/github/v/release/RubyonLy0929/tanetsumi-bilingual-subtitle-patch?label=download&color=2f6f9f)](https://github.com/RubyonLy0929/tanetsumi-bilingual-subtitle-patch/releases/latest)
+[![Steam](https://img.shields.io/badge/Steam-指南-1b75d0)](https://steamcommunity.com/sharedfiles/filedetails/?id=3753328194)
+[![License](https://img.shields.io/github/license/RubyonLy0929/tanetsumi-bilingual-subtitle-patch)](LICENSE)
+[![Game](https://img.shields.io/badge/Tanetsumi%20no%20Uta-2748830-f0b35a)](https://store.steampowered.com/app/2748830/)
 
-本补丁不包含游戏本体、剧情文本、图片、音频或视频资源。它只调用游戏内置的官方多语言文本进行同步显示。请在已经拥有正版 Steam 版游戏的前提下使用。
+面向日语学习者的《播种之谣 / たねつみの歌 / Tanetsumi no Uta》非官方双语字幕补丁。安装后，对白场景会同时显示 **日语主字幕** 和 **简体中文辅助字幕**，适合边玩边学日语、对照理解台词表达。
 
-## 下载
+> 如果这个项目帮到了你，欢迎点一下 GitHub 右上角的 Star。Star 会让更多正在学日语、正在玩《播种之谣》的玩家更容易看到它。
 
-推荐下载整包：
+## 快速下载
 
-[下载最新版补丁包](dist/tanetsumi-bilingual-subtitle-patch-v1.0.0.zip?raw=1)
+- 推荐下载：[tanetsumi-bilingual-subtitle-patch-v1.0.0.zip](https://github.com/RubyonLy0929/tanetsumi-bilingual-subtitle-patch/releases/latest)
+- 手动安装：[tanetsumi.pfs.099](dist/tanetsumi.pfs.099?raw=1)
+- 图文说明：[Steam 指南](https://steamcommunity.com/sharedfiles/filedetails/?id=3753328194)
 
-如果你熟悉手动安装，也可以直接下载补丁文件：
+## 这个补丁做了什么
 
-[下载 tanetsumi.pfs.099](dist/tanetsumi.pfs.099?raw=1)
+| 位置 | 显示内容 | 说明 |
+| --- | --- | --- |
+| 上方 | 日语官方字幕 | 保留原本的大字主字幕效果 |
+| 下方 | 简体中文官方字幕 | 淡黄色、小一号，作为理解辅助 |
+| UI | 游戏设置中的语言 | 菜单、设置、按钮不会被锁成中文或日文 |
 
-## 效果
+关键词：播种之谣双语字幕、たねつみの歌 二言語字幕、Tanetsumi no Uta bilingual subtitles、日语学习、Japanese learning visual novel patch。
+
+## 效果与质量检查
 
 安装后，游戏对白界面会以日语为主字幕、简体中文为副字幕。中文字幕会始终保持淡黄色，不会因为已读状态变白；读档后的第一句也不会重复显示。
 
-这个版本已经用全剧本做过排版扫描：83 个剧本文件、16712 个对白块，未发现越界或危险重叠。最挤的长句仍保留约 56px 底部余量。
+这个版本已经用全剧本做过排版扫描：**83 个剧本文件、16712 个对白块**，未发现越界或危险重叠。最挤的长句仍保留约 **56px** 底部余量。
+
+更多效果图见 Steam 指南：
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3753328194
 
 ## 适用版本
 
-- 游戏：Steam 版《播种之谣 / たねつみの歌》
-- App ID：2748830
+- 游戏：Steam 版《播种之谣 / たねつみの歌 / Tanetsumi no Uta》
+- App ID：`2748830`
 - 平台：Windows
 - 补丁文件：`tanetsumi.pfs.099`
 
@@ -84,11 +99,12 @@ tanetsumi.pfs.099
 
 ## 文件校验
 
-当前补丁文件：
-
 ```text
 tanetsumi.pfs.099
 SHA256: C08151EF0AF6F44261CBD3EACB90C9FF1C37D0723A639C7D63011F591F4F6BAB
+
+tanetsumi-bilingual-subtitle-patch-v1.0.0.zip
+SHA256: 8701762948EE1ABF04C332C2C6BB3BCCC31059A63A36F4D32C34A221E2FC0FF3
 ```
 
 完整校验列表见 [checksums.sha256](checksums.sha256)。
@@ -115,9 +131,20 @@ SHA256: C08151EF0AF6F44261CBD3EACB90C9FF1C37D0723A639C7D63011F591F4F6BAB
 
 原游戏只允许实时切换单一字幕语言。本补丁通过额外显示副字幕层，让日语学习者可以同时看到日语和简体中文。
 
+## 帮助项目被更多人看到
+
+你可以做这些小事支持项目：
+
+- 在 GitHub 右上角点 Star
+- 在 Steam 指南里收藏或点赞
+- 把项目分享给正在学日语、正在玩《播种之谣》的朋友
+- 遇到问题时提交 Issue，帮助后续版本改进兼容性
+
+可复制的分享文案见 [PROMOTION.md](PROMOTION.md)。
+
 ## 支持作者
 
-如果这个补丁帮到了你，可以zfb扫码支持作者继续做这类学习向补丁。
+如果这个补丁帮到了你，可以扫码支持作者继续制作学习向补丁和工具。
 
 ![打赏二维码](assets/support-qr.jpg)
 
